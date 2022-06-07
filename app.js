@@ -35,9 +35,9 @@ app.get("/url", (req, res, next) =>
     }
 });
 
-app.listen(8080, () =>
+app.listen(443, () =>
 {
-    console.log("Servidor rodando na porta 8080");
+    console.log("Servidor rodando na porta 443");
 });
 
 function sleep(ms) {
